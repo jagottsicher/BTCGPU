@@ -151,6 +151,12 @@ The release is built with GCC and then "strip bitcoind" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
+libsodium
+---------
+
+If libsodium is missing please install [libsodium(https://download.libsodium.org/doc/installation/). Even it should be included in PyNaClIt it could be neeeded to deinstall your actual version and eventueally build your own library from the scratch. Please don't forget ldconfig afterwards.
+
+
 miniupnpc
 ---------
 
